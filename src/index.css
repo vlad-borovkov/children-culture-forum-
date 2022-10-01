@@ -1,13 +1,12 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/fonts.css);
+@import url(./components/page/page.css);
+@import url(./components/header/header.css);
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url(./components/header/header__menu);
+@import url(./components/header/header__navlinks);
+@import url(./components/header/header__navlinks_item.css);
+@import url(./components/header/header__btn-reg.css);
+@import url(./components/header/header__title.css);
+
+@import url(./components/event-detail/event-details.css);

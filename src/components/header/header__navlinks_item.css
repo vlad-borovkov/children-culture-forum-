@@ -1,0 +1,9 @@
+.header__navlinks_item {
+    margin: 0;
+    list-style-type: none;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.header__navlinks_item:hover {}
