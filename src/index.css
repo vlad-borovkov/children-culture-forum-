@@ -1,12 +1,8 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/fonts.css);
-@import url(./components/page/page.css);
-@import url(./components/header/header.css);
 
-@import url(./components/header/header__menu);
-@import url(./components/header/header__navlinks);
-@import url(./components/header/header__navlinks_item.css);
-@import url(./components/header/header__btn-reg.css);
-@import url(./components/header/header__title.css);
+@import url(./components/page/page.css);
+
+@import url(./components/header/header.css);
 
 @import url(./components/event-detail/event-details.css);
