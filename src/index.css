@@ -4,5 +4,13 @@
 @import url(./components/page/page.css);
 
 @import url(./components/header/header.css);
+@import url(./components/Footer/footer.css);
+@import url(./components/PopupMenu/popup.css);
+@import url(./components/PopupMenu/popup-menu.css);
 
 @import url(./components/event-detail/event-details.css);
+
+@import url(./components/Speakers/Speakers.css);
+@import url(./components/Map/map.css);
+
+@import url(./components/Organization/organization.css);

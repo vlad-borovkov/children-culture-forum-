@@ -1,0 +1,23 @@
+.map {
+    display: flex;
+    height: 75vh;
+    padding: 30px;
+}
+
+.map__container {
+    padding: 50px;
+}
+
+.map__legend {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    background-color: #fafafa;
+    border-radius: 10px;
+}
+
+.map__legend-item {
+    list-style-type: none;
+}
+
+.map__iframe {}

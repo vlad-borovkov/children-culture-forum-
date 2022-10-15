@@ -8,6 +8,9 @@
 # testing
 /coverage
 
+#design and images
+/design-forum
+
 # production
 /build
 

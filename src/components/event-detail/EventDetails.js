@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 function EventDetails() {
   return (
-    <div className='event-details'>
+    <section className='event-details'>
       <div className='details__numbers-wrapper'>
         <div className='details__numbers'>
           <div className='details__numbers_item'>
@@ -13,11 +13,17 @@ function EventDetails() {
               alt='forum-info'
               src={pointPath}
             ></img>
+            {/* Экран 2.  -44
+            мероприятия. Творческиеи встречи, мастер-классы, экскурсии,
+            дискуссии. -22 эксперта. Деятели культуры и искусства по 6
+            направлениям Форума. -10 проектных команд. Участники Форума из
+            субъектов СФО и Новосибирской области примут участие в лаборатории
+            идей. */}
             <div className='details__text-wrapper'>
-              <p className='details__big-number'>35</p>
-              <p className='details__event-name'>Мастер-классов</p>
+              <p className='details__big-number'>1000</p>
+              <p className='details__event-name'>учатсников</p>
               <p className='details__event-about'>
-                Самые запоминающиеся и интересные
+                Дети и подростки в возрасте от 12 до 18 лет
               </p>
             </div>
           </div>
@@ -28,10 +34,10 @@ function EventDetails() {
               src={pointPath}
             ></img>
             <div className='details__text-wrapper'>
-              <p className='details__big-number'>35</p>
-              <p className='details__event-name'>Мастер-классов</p>
+              <p className='details__big-number'>44</p>
+              <p className='details__event-name'>Мероприятия</p>
               <p className='details__event-about'>
-                Самые запоминающиеся и интересные
+                Творческиеи встречи, мастер-классы, экскурсии, дискуссии.
               </p>
             </div>
           </div>
@@ -42,10 +48,10 @@ function EventDetails() {
               src={pointPath}
             ></img>
             <div className='details__text-wrapper'>
-              <p className='details__big-number'>35</p>
-              <p className='details__event-name'>Мастер-классов</p>
+              <p className='details__big-number'>22 </p>
+              <p className='details__event-name'>эксперта</p>
               <p className='details__event-about'>
-                Самые запоминающиеся и интересные
+                Деятели культуры и искусства по 6 направлениям Форума.
               </p>
             </div>
           </div>
@@ -56,10 +62,11 @@ function EventDetails() {
               src={pointPath}
             ></img>
             <div className='details__text-wrapper'>
-              <p className='details__big-number'>35</p>
-              <p className='details__event-name'>Мастер-классов</p>
+              <p className='details__big-number'>10</p>
+              <p className='details__event-name'>Проектных команд</p>
               <p className='details__event-about'>
-                Самые запоминающиеся и интересные
+                Участники Форума из субъектов СФО и Новосибирской области примут
+                участие в лаборатории идей.
               </p>
             </div>
           </div>
@@ -84,7 +91,7 @@ function EventDetails() {
           <button>Зарегистрироваться на форум</button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
