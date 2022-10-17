@@ -1,0 +1,7 @@
+.stream-section {
+    display: flex;
+    height: 90vh;
+    border: 1px solid teal;
+    flex-direction: column;
+    align-items: center;
+}

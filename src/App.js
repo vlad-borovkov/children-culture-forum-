@@ -9,6 +9,7 @@ import Speakers from './components/Speakers/Speakers';
 import Map from './components/Map/Map';
 import Organization from './components/Organization/Organization';
 import Footer from './components/Footer/Footer';
+import Stream from './components/Stream/Stream';
 
 function App() {
   const [isOpenMenu, setOpenMenu] = React.useState(false);
@@ -34,8 +35,9 @@ function App() {
         <Header handleMenuClick={handleMenuClick} />
         <EventDetails />
         <Speakers />
-        <Organization />
+        <Stream />
         <Map />
+        <Organization />
         <Footer />
         <PopupMenu handleCloseMenu={closeAllPopups} isOpenMenu={isOpenMenu} />
       </div>

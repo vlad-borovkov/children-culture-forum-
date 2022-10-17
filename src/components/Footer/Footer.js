@@ -14,7 +14,7 @@ export default function Footer() {
             ></img>
           </div>
           <p className='footer__author'>
-            &copy; 2022. Новосибирская детская областная библиотека & Borowkow
+            &copy; 2022. Новосибирская детская областная библиотека & Vlad
             webDesign
           </p>
         </div>
@@ -33,6 +33,9 @@ export default function Footer() {
               Спикеры
             </a>
             <a className='footer__column-link' href='/#'>
+              Направления
+            </a>
+            <a className='footer__column-link' href='/#'>
               Карта площадок
             </a>
           </nav>
@@ -45,7 +48,7 @@ export default function Footer() {
               src='images/facebook_color_white.svg'
               alt='Telegramm'
             ></img>
-            Facebook
+            Мы в Телеграмме
           </a>
           <a className='footer__column-link' href='/#'>
             <img
@@ -53,15 +56,7 @@ export default function Footer() {
               src='images/vk_color_white.svg'
               alt='Вконтакте'
             ></img>
-            Вконтакте
-          </a>
-          <a className='footer__column-link' href='/#'>
-            <img
-              className='footer__social-icon'
-              src='images/instagram_color_white.svg'
-              alt='Instagram'
-            ></img>
-            Instagram
+            Мы в Вконтакте
           </a>
         </div>
       </div>

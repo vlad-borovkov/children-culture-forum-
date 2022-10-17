@@ -74,20 +74,26 @@ function EventDetails() {
 
         <div className='details__about-wrapper'>
           <h2 className='details__header'>
-            Погрузитесь в мир творчества вместе с нами!
+            Это площадка для сотворчества, социального проектирования, для
+            поиска вдохновения и своего творческого пути.
           </h2>
           <p className='details__lead'>
-            In the educational process you’ll do many practical work and will be
-            able to form your own portfolio, which can be used in your future
-            work.
+            Дети и подростки в возрасте от 12 до 18 лет включительно получат
+            возможность познакомиться с ведущими деятелями культуры и искусства,
+            попробовать свои силы в творческих мастерских, а также смогут
+            поработать в проектных командах и внести реальный вклад в развитие
+            культурной жизни на своих территориях.
           </p>
           <p className='details__paragraph'>
-            We work with top IT specialists who have a talent to share their
-            knowledge and give professional advices to students. All of them
-            work in IT industry and know about the latest tendencies in this
-            sphere. We stand for the full development of skills, thats why we
-            work on both hard and soft skills, which are equally important.
+            Форум станет местом встречи талантливых детей из всех регионов
+            Сибирского федерального округа, из всех муниципальных образований
+            Новосибирской области. Это площадка для сотворчества, социального
+            проектирования, для поиска вдохновения и своего творческого пути.
+            Более тысячи ребят посетят мероприятия культурной программы Форума.
           </p>
+          <label>
+            <b>Сократить немного. Сейчас взято из программы форума</b>
+          </label>
           <button>Зарегистрироваться на форум</button>
         </div>
       </div>

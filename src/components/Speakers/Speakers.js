@@ -17,7 +17,7 @@ export default function Speakers() {
               alt={item.name}
             ></img>
             <h3 className='cards__title'>{item.name}</h3>
-            <p className='cards__stream'>{item.stream}</p>
+            <p className='cards__stream'>Направление: {item.stream}</p>
             <p className='cards__description'>{item.about}</p>
           </li>
         ))}

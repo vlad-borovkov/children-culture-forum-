@@ -38,14 +38,15 @@ function Header({ handleMenuClick }) {
       </nav>
       <p className='header__date'>1-2 ноября</p>
       <h1 className='header__title'>I Сибирский детский культурный форум</h1>
-      Делаем культуру - объедининяем мир.
-      <h2>
-        Это площадка для сотворчества, социального проектирования, для поиска
-        вдохновения и своего творческого пути.
-      </h2>
+      <h2>Делаем культуру - объедининяем мир.</h2>
+      <p>#детскийфорум #культураСибири</p>
       <div className='header__btn-wrapper'>
-        <button className='header__btn-details'>Подробнее</button>
-        <button className='header__btn-reg'>Регистрация</button>
+        <button type='button' className='header__btn-details'>
+          Подробнее
+        </button>
+        <button type='button' className='header__btn-reg'>
+          Регистрация
+        </button>
       </div>
     </header>
   );

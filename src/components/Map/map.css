@@ -1,7 +1,19 @@
 .map {
     display: flex;
-    height: 75vh;
+    height: 104vh;
     padding: 30px;
+    border: 1px solid teal;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map-wrap {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .map__container {
@@ -10,14 +22,15 @@
 
 .map__legend {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     width: 400px;
-    background-color: #fafafa;
+    height: 533px;
+    background-color: #d8d9dc;
     border-radius: 10px;
 }
 
 .map__legend-item {
-    list-style-type: none;
+    list-style-type: circle;
 }
 
 .map__iframe {}
