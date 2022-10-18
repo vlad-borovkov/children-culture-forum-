@@ -12,8 +12,8 @@ export default function Map() {
         <iframe
           title='карта культурных событий'
           src='https://yandex.com/map-widget/v1/?um=constructor%3A672e880f14b73bf2035e0be0a86e37b3b5f05190a3bbdbb17fc34a27116f0c65&amp;source=constructor'
-          width='729'
-          height='533'
+          width='601'
+          height='622'
           frameborder='0'
         ></iframe>
         <ul className='map__legend'>

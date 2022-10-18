@@ -50,7 +50,12 @@ export default function Footer() {
             ></img>
             Мы в Телеграмме
           </a>
-          <a className='footer__column-link' href='/#'>
+          <a
+            className='footer__column-link'
+            href='https://vk.com/public216364187'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
               className='footer__social-icon'
               src='images/vk_color_white.svg'

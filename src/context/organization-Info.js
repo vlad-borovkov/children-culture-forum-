@@ -1,30 +1,71 @@
-import oblstnaya_detskaya from './../images/logos/oblstnaya_detskaya.svg';
+import centr_industriy from './../images/logos/centr_industriy.jpg';
+import detskaya_oblastnaya from './../images/logos/detskaya_oblastnaya.jpg';
+import dom from './../images/logos/dom.jpg';
+import kolledj_iskustv from './../images/logos/kolledj_iskustv.jpg';
+import kraeved_mus from './../images/logos/kraeved_mus.jpg';
+import mincult from './../images/logos/mincult.jpg';
+import molodejnaya_bibl from './../images/logos/molodejnaya_bibl.jpg';
+import nauchnaya from './../images/logos/nauchnaya.jpg';
+import ngaudi from './../images/logos/ngaudi.jpg';
+import souz_hud from './../images/logos/souz_hud.jpg';
+import u from './../images/logos/u.jpg';
+import ngpu from './../images/logos/ngpu.jpg';
 
 const organizationInfo = [
   {
-    name: 'Новосибирская областная детская библиотека им. А. М. Горького',
-    logo: oblstnaya_detskaya,
-    link: 'http://www.maxlib.ru/',
+    name: 'Министерство культуры Новосибирской области',
+    logo: mincult,
+    link: 'https://mk.nso.ru/',
   },
   {
     name: 'Новосибирская областная детская библиотека им. А. М. Горького',
-    logo: oblstnaya_detskaya,
+    logo: detskaya_oblastnaya,
     link: 'http://www.maxlib.ru/',
   },
   {
-    name: 'Новосибирская областная детская библиотека им. А. М. Горького',
-    logo: oblstnaya_detskaya,
-    link: 'http://www.maxlib.ru/',
+    name: 'Центр креативных индустрий',
+    logo: centr_industriy,
+    link: 'http://ckinsk.ru/',
   },
   {
-    name: 'Новосибирская областная детская библиотека им. А. М. Горького',
-    logo: oblstnaya_detskaya,
-    link: 'http://www.maxlib.ru/',
+    name: 'Дворец творчества детей и учащейся молодежи «Юниор»',
+    logo: u,
+    link: 'https://junior-nsk.ru/',
   },
   {
-    name: 'Новосибирская областная детская библиотека им. А. М. Горького',
-    logo: oblstnaya_detskaya,
-    link: 'http://www.maxlib.ru/',
+    name: 'Новосибирский государственный краеведческий музей',
+    logo: kraeved_mus,
+    link: 'https://youmuseum.ru/',
+  },
+  {
+    name: 'Новосибирский государственный университет архитектуры, дизайна и искусств',
+    logo: ngaudi,
+    link: 'https://nsuada.ru/',
+  },
+  {
+    name: 'Новосибирская государственная областная научная библиотека',
+    logo: nauchnaya,
+    link: 'https://ngonb.ru/',
+  },
+  {
+    name: 'Новосибирская областная молодежная библиотека',
+    logo: molodejnaya_bibl,
+    link: 'http://dev.infomania.ru/',
+  },
+  {
+    name: 'Новосибирский областной колледж культуры и искусств',
+    logo: kolledj_iskustv,
+    link: 'https://nokki.ru/',
+  },
+  {
+    name: 'Новосибирское региональное отделение «Союз художников России»',
+    logo: souz_hud,
+    link: 'https://www.nro-shr.ru/',
+  },
+  {
+    name: 'НГПУ',
+    logo: ngpu,
+    link: 'https://nspu.ru/',
   },
 ];
 
