@@ -5,7 +5,7 @@ export default function Organization() {
   console.log(organizationInfo);
   return (
     <section className='resources'>
-      <h2 className='section-title'>Организаторы форума</h2>
+      <h2 className='section-title'>Организаторы и партнёры Форума</h2>
 
       <ul className='resources__logo-list'>
         {organizationInfo.map((item, index) => (
@@ -22,7 +22,7 @@ export default function Organization() {
                 alt={item.name}
               ></img>
             </a>
-            <p className='resources__logo-about'>{item.name}</p>
+            {/* <p className='resources__logo-about'>{item.name}</p> */}
           </li>
         ))}
       </ul>

@@ -1,36 +1,63 @@
 .map {
     display: flex;
-    height: 104vh;
-    padding: 30px;
-    border: 1px solid teal;
+    min-height: 1053px;
     flex-direction: column;
     align-items: center;
+    background-color: #F2F2F2;
 }
 
 .map-wrap {
     margin: 0;
-    width: 100%;
+    margin-top: 25px;
+    width: 1186px;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
-    align-items: center;
 }
 
+
 .map__container {
-    padding: 50px;
+    border-radius: 10px;
+    max-width: 601px;
+    max-height: 627px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .map__legend {
+    display: flex;
     margin: 0;
-    padding: 20px;
-    width: 400px;
-    height: 533px;
-    background-color: #d8d9dc;
+    margin-left: 10px;
+    padding: 38px;
+    max-width: 533px;
+    min-height: 627px;
+    background-color: #FFFFFF;
     border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    flex-direction: column;
 }
 
-.map__legend-item {
+.map__legend-title {
+    margin: 0;
+    font-family: Constantia, Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    align-self: center;
+    margin-bottom: 4px;
+}
+
+.map__legend-place {
+    margin: 0;
+    font-family: Constantia, Times, serif;
     list-style-type: circle;
-}
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 
-.map__iframe {}
+    color: #000000;
+}

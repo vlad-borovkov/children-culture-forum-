@@ -3,7 +3,7 @@
     display: flex;
     margin: 0;
     padding: 0;
-    background-color: #1f1f1f;
+    background-color: #FAFAFA;
     justify-content: center;
 }
 
@@ -42,33 +42,41 @@
 }
 
 .footer__author {
+    font-family: Constantia, Times, serif;
     align-self: baseline;
     margin-top: 18px;
     margin-bottom: 18px;
     padding: 0;
-    font-size: 18px;
-    line-height: 25px;
-    font-weight: normal;
-    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
     width: 350px;
 }
 
 .footer__column-heading {
-    line-height: 30px;
-    font-size: 18px;
+    font-family: Constantia, Times, serif;
+    font-style: normal;
     font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
     margin: 0;
     margin-bottom: 20px;
-    color: white;
+
 }
 
 .footer__column-link {
-    color: white;
-    text-decoration: none;
+    font-family: Constantia, Times, serif;
+    font-style: normal;
+    font-weight: 400;
     font-size: 18px;
-    line-height: 30px;
-    font-weight: normal;
+    line-height: 22px;
+    color: #000000;
     margin: 0;
+    text-decoration: none;
+    margin-top: 8px;
 }
 
 .footer__column-link:hover {

@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
         <div className='footer__column footer__column_content_info'>
           <h2 className='footer__column-heading'>
-            Сибирский детский культурный форум
+            I Сибирский детский культурный форум
           </h2>
           <nav className='footer__column-links'>
             <a className='footer__column-link' href='/#'>
@@ -41,15 +41,7 @@ export default function Footer() {
           </nav>
         </div>
         <div className='footer__column footer__column_content_social'>
-          <h2 className='footer__column-heading'>Соцсети</h2>
-          <a className='footer__column-link' href='/#'>
-            <img
-              className='footer__social-icon'
-              src='images/facebook_color_white.svg'
-              alt='Telegramm'
-            ></img>
-            Мы в Телеграмме
-          </a>
+          <h2 className='footer__column-heading'>Мы на связи</h2>
           <a
             className='footer__column-link'
             href='https://vk.com/public216364187'
@@ -62,6 +54,22 @@ export default function Footer() {
               alt='Вконтакте'
             ></img>
             Мы в Вконтакте
+          </a>
+          <a
+            className='footer__column-link'
+            href='/#'
+            target='_blank'
+            rel='noreferrer'
+          >
+            example@mail.com
+          </a>
+          <a
+            className='footer__column-link'
+            href='/#'
+            target='_blank'
+            rel='noreferrer'
+          >
+            +7 999 999 999
           </a>
         </div>
       </div>

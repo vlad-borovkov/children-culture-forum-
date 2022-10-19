@@ -63,10 +63,15 @@ export default function Stream() {
                 Подробнее о направлении по объёму текста - 1-2 строчки.'
           />
         </ul>
-
-        <button type='button' className='header__btn-details'>
-          Скачать программу
-        </button>
+        <div className='stream-button__wrap'>
+          <div className='stream-button__text-wrap'>
+            <p className='stream-button__slogan'>Нашёл своё? Регистрируйся!</p>
+            <p className='stream-button__disclamer'>Места ограничены</p>
+          </div>
+          <button type='button' className='stream-button'>
+            Стать участником
+          </button>
+        </div>
       </section>
     </>
   );
