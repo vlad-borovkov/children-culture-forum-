@@ -4,9 +4,10 @@ import speakersInfo from '../../context/speakers-info';
 export default function Speakers() {
   return (
     <section className='speakers-section'>
-      <h2 className='section-title'>Приглашённые спикеры форума</h2>
+      <h2 className='section-title'>Эксперты Форума</h2>
       <p className='section-subtitle'>
-        Известные деятели культуры, кино и науки
+        Гостями и основными спикерами станут деятели культуры и искусства из
+        Москвы, Санкт-Петербурга, Новосибирска
       </p>
       <ul className='cards'>
         {speakersInfo.map((item, index) => (

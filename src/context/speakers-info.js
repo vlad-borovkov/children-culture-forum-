@@ -2,6 +2,8 @@ import Charchenko from '../images/speakers/Elizaveta_Charchenko.svg';
 import Nechiporenko from '../images/speakers/Yuriy_Nechiporenko.svg';
 import Tyrkova from '../images/speakers/Evgeniya_Tyrkova.svg';
 import Default from '../images/speakers/Default_person.svg';
+import Mihail_Parshikovimport from '../images/speakers/Mihail_Parshikov.svg';
+import Marta_Yaralova from '../images/speakers/Marta_Yaralova.svg';
 
 const speakersInfo = [
   {
@@ -26,14 +28,14 @@ const speakersInfo = [
       'Актриса театра и кино, ставшая известной с первой же роли, сыгранной в телевизионном проекте «Пилот международных авиалиний',
   },
   {
-    image: Default,
+    image: Marta_Yaralova,
     name: 'Марта Яралова',
     stream: 'Музейное дело и живопись',
     about:
       'Куратор Пушкинский.Youth (ГМИИ им. А.С. Пушкина), искусствовед, культуролог',
   },
   {
-    image: Default,
+    image: Mihail_Parshikovimport,
     name: 'Михаил Паршиков',
     stream: 'Изобразительное искусство',
     about:
