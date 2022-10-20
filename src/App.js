@@ -33,6 +33,7 @@ function App() {
           />
         </Helmet>
         <Header handleMenuClick={handleMenuClick} />
+
         <EventDetails />
         <Speakers />
         <Stream />

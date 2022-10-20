@@ -12,23 +12,30 @@ function Header({ handleMenuClick }) {
         <img className='header__logo' src={logoPath} alt='логотип форума'></img>
         <div className='header__wrapper'>
           <ul className='header__navlinks'>
-            <Link to='#' className='header__navlinks_item'>
+            <a href='#about-forum' className='header__navlinks_item'>
               О форуме
-            </Link>
-            <Link to='#' className='header__navlinks_item'>
+            </a>
+            <a href='#speakers' className='header__navlinks_item'>
               Спикеры
-            </Link>
-            <Link to='#' className='header__navlinks_item'>
+            </a>
+            <a href='#streams' className='header__navlinks_item'>
               Направления
-            </Link>
-            <Link to='#' className='header__navlinks_item'>
+            </a>
+            <a href='#places' className='header__navlinks_item'>
               Площадки
-            </Link>
-            <Link to='#' className='header__navlinks_item'>
+            </a>
+            <a
+              href='/#'
+              download=''
+              title='Скачать программу Форума'
+              className='header__navlinks_item'
+            >
               Программа
-            </Link>
+            </a>
           </ul>
-          <button className='header__btn-reg_header'>Регистрация</button>
+          <a href='http://www.maxlib.ru/' className='header__btn-reg_header'>
+            Регистрация
+          </a>
         </div>
 
         <div className='header__sandwitch-menu'>
@@ -53,12 +60,12 @@ function Header({ handleMenuClick }) {
         </p>
 
         <div className='header__btn-wrapper'>
-          <button type='button' className='header__btn-details'>
+          <a href='http://www.maxlib.ru/' className='header__btn-details'>
             Подробнее
-          </button>
-          <button type='button' className='header__btn-reg'>
+          </a>
+          <a href='http://www.maxlib.ru/' className='header__btn-reg'>
             Регистрация
-          </button>
+          </a>
         </div>
         <p className='header__date'>1-2 ноября</p>
         <p className='header__city'>Новосибирск</p>
@@ -68,13 +75,13 @@ function Header({ handleMenuClick }) {
         </p>
       </div>
 
-      <div className='header__page-decor-wrap'>
+      {/* <div className='header__page-decor-wrap'>
         <img
           className='header__page-decor-image'
           src={decor_page_1}
           alt='декоративный элемент'
         ></img>
-      </div>
+      </div> */}
     </header>
   );
 }

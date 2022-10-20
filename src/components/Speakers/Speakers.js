@@ -3,7 +3,7 @@ import speakersInfo from '../../context/speakers-info';
 
 export default function Speakers() {
   return (
-    <section className='speakers-section'>
+    <section id='speakers' className='speakers-section'>
       <h2 className='section-title'>Эксперты Форума</h2>
       <p className='section-subtitle'>
         Гостями и основными спикерами станут деятели культуры и искусства из

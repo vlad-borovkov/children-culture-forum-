@@ -9,14 +9,14 @@ import Komanda from './../../images/numbers_page/Komanda.svg';
 
 function EventDetails() {
   return (
-    <section className='event-details'>
-      <div className='event-details__decor-wrap'>
+    <section id='about-forum' className='event-details'>
+      {/* <div className='event-details__decor-wrap'>
         <img
           className='event-details__decor-image'
           src={page_decor_2}
           alt='декоративный элемент'
         ></img>
-      </div>
+      </div> */}
       <div className='details__numbers-wrapper'>
         <div className='details__numbers'>
           <div className='details__numbers_item'>
@@ -85,7 +85,9 @@ function EventDetails() {
             силы в проектных командах, чтобы потом внести реальный вклад в
             развитие культурной жизни на своих территориях.
           </p>
-          <button className='details__reg-button'>Стать участником</button>
+          <a href='http://www.maxlib.ru/' className='details__reg-button'>
+            Стать участником
+          </a>
         </div>
       </div>
     </section>

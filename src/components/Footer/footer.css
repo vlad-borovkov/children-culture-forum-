@@ -68,6 +68,7 @@
 }
 
 .footer__column-link {
+    display: flex;
     font-family: Constantia, Times, serif;
     font-style: normal;
     font-weight: 400;
@@ -77,6 +78,7 @@
     margin: 0;
     text-decoration: none;
     margin-top: 8px;
+    align-items: center;
 }
 
 .footer__column-link:hover {

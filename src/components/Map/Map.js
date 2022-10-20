@@ -3,7 +3,7 @@ import adressForMap from '../../context/adress-map';
 
 export default function Map() {
   return (
-    <section className='map'>
+    <section id='places' className='map'>
       <h2 className='section-title'>Форум на карте Новосибирска</h2>
       <p className='section-subtitle'>
         Перемещайся по карте и нажми на метку, чтобы узнать подробности
@@ -37,9 +37,9 @@ export default function Map() {
           <p className='stream-button__slogan'>Нашёл своё? Регистрируйся!</p>
           <p className='stream-button__disclamer'>Места ограничены</p>
         </div>
-        <button type='button' className='stream-button'>
+        <a href='http://www.maxlib.ru/' className='stream-button'>
           Стать участником
-        </button>
+        </a>
       </div>
     </section>
   );

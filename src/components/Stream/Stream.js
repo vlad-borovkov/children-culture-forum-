@@ -11,7 +11,7 @@ import Laboratory from '../../images/stream_logo/Laboratory.svg';
 export default function Stream() {
   return (
     <>
-      <section className='stream-section'>
+      <section id='streams' className='stream-section'>
         <h2 className='section-title'>Направления Форума</h2>
         <p className='section-subtitle'>
           Найди своё и прими в нём участие. Места ограничены
@@ -68,9 +68,9 @@ export default function Stream() {
             <p className='stream-button__slogan'>Нашёл своё? Регистрируйся!</p>
             <p className='stream-button__disclamer'>Места ограничены</p>
           </div>
-          <button type='button' className='stream-button'>
+          <a href='http://www.maxlib.ru/' className='stream-button'>
             Стать участником
-          </button>
+          </a>
         </div>
       </section>
     </>

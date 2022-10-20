@@ -11,8 +11,9 @@ import souz_hud from './../images/logos/souz_hud.jpg';
 import u from './../images/logos/u.jpg';
 import ngpu from './../images/logos/ngpu.jpg';
 import novat from './../images/logos/NOVAT.png';
+import RDSH from './../images/logos/RDSH.svg';
 
-const organizationInfo = [
+export const organizationInfo = [
   {
     name: 'Министерство культуры Новосибирской области',
     logo: mincult,
@@ -23,6 +24,9 @@ const organizationInfo = [
     logo: detskaya_oblastnaya,
     link: 'http://www.maxlib.ru/',
   },
+];
+
+export const partnersInfo = [
   {
     name: 'Новосибирский государственный университет архитектуры, дизайна и искусств',
     logo: ngaudi,
@@ -56,7 +60,7 @@ const organizationInfo = [
   {
     name: 'Дом национальных культур им. Г. Д. Заволокина',
     logo: DOM,
-    link: 'http://ckinsk.ru/',
+    link: 'https://dnknsk.ru/',
   },
   {
     name: 'Дворец творчества детей и учащейся молодежи «Юниор»',
@@ -78,6 +82,9 @@ const organizationInfo = [
     logo: novat,
     link: 'https://novat.nsk.ru/',
   },
+  {
+    name: 'РДШ',
+    logo: RDSH,
+    link: 'https://рдш.рф/',
+  },
 ];
-
-export default organizationInfo;

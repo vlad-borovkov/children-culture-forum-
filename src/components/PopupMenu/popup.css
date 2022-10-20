@@ -13,6 +13,7 @@
     width: 100%;
     height: 100%;
     cursor: pointer;
+    z-index: 50;
 }
 
 .popup_on {
@@ -90,7 +91,7 @@
     }
 }
 
-@media screen and (max-width: 769px) and (min-width: 420px) {
+@media screen and (max-width: 852px) and (min-width: 420px) {
     .popup_on {
         visibility: visible;
     }

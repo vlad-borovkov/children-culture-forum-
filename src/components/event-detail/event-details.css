@@ -3,6 +3,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(../../images/page_decor_2.svg);
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
 }
 
 .event-details__decor-wrap {
@@ -14,24 +19,22 @@
 
 }
 
-.event-details__decor-image {
+/* .event-details__decor-image {
 
     width: 100%;
     margin-top: -5px;
     margin-left: -1px;
     z-index: 0;
-}
+} */
 
 .details__numbers-wrapper {
     margin: 0;
+    margin-top: 50px;
     width: 1119px;
     max-width: 100%;
-    position: relative;
-    top: -108px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .details__numbers {
@@ -146,17 +149,140 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-
     text-align: center;
     border-radius: 50px;
     border: 0;
     background-color: #EF7F1B;
     color: #FFFFFF;
     transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .details__reg-button:hover {
     background-color: white;
     color: #7081F9;
     filter: drop-shadow(0px 4px 4px rgba(239, 127, 27, 0.25));
+}
+
+
+@media screen and (max-width: 426px) and (min-width: 320px) {
+    .details__numbers-wrapper {
+        margin: 0;
+        width: 1119px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details__numbers {
+        margin-top: 36px;
+        display: flex;
+        min-width: 50%;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: space-around;
+    }
+
+    .details__numbers_item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* min-width: 100%; */
+    }
+
+    .details__text-wrapper {
+        margin: 0;
+        margin-bottom: 23px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 440px;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .details__big-number {
+        margin: 0;
+        margin-right: 10px;
+        font-family: Constantia, Times, serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #E31E25;
+    }
+
+    .details__event-name {
+        margin: 0;
+        font-family: Constantia, Times, serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+        margin-bottom: 9px;
+    }
+
+    .details__event-about {
+        margin: 0;
+        font-family: Constantia, Times, serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        text-align: center;
+    }
+
+    .details__about-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .details__header {
+        width: 565px;
+        max-width: 100%;
+        margin: 0;
+        font-family: Constantia, Times, serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 46px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.9);
+        margin-bottom: 16px;
+        margin-top: 25px;
+    }
+
+    .details__lead {
+        margin: 0;
+        width: 300px;
+        text-align: center;
+        max-width: 100%;
+        font-family: Constantia, Times, serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #E31E25;
+        margin-bottom: 22px;
+    }
+
+    .details__paragraph {
+        margin: 0;
+        font-family: Constantia, Times, serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        margin-bottom: 31px;
+        width: 300px;
+        max-width: 100%;
+    }
+
 }

@@ -4,6 +4,9 @@ import Tyrkova from '../images/speakers/Evgeniya_Tyrkova.svg';
 import Default from '../images/speakers/Default_person.svg';
 import Mihail_Parshikovimport from '../images/speakers/Mihail_Parshikov.svg';
 import Marta_Yaralova from '../images/speakers/Marta_Yaralova.svg';
+import Sophya_Hodarina from '../images/speakers/Sophya_Hodarina.svg';
+import Tatyans_Balaban from '../images/speakers/Tatyans_Balaban.svg';
+import Darya_Michalchenko from '../images/speakers/Darya_Michalchenko.svg';
 
 const speakersInfo = [
   {
@@ -40,6 +43,27 @@ const speakersInfo = [
     stream: 'Изобразительное искусство',
     about:
       'Художник-график, плакатист, член Союза художников СССР и России, член АСЕА, association de promoсion de los pintores plastics (Испания). Лауреат и дипломант российских и зарубежных художественных выставок и конкурсов',
+  },
+  {
+    image: Sophya_Hodarina,
+    name: 'Софья Ходарина',
+    stream: 'Неизвестно',
+    about:
+      'Председатель Детского организационного комитета Форума, заместитель председателя Общественного совета детей и подростков по вопросам в сфере культуры Новосибирской области (Новосибирск)',
+  },
+  {
+    image: Tatyans_Balaban,
+    name: 'Татьяна Балабан',
+    stream: 'Неизвестно',
+    about:
+      'Член Детского организационного комитета Форума, председатель Детского Общественного Совета Музея Победы (Москва)',
+  },
+  {
+    image: Darya_Michalchenko,
+    name: 'Дарья Михальченко',
+    stream: 'Неизвестно',
+    about:
+      'Член Детского организационного комитета Форума, прозаик, поэт, победитель международных конкурсов (Томск)',
   },
 ];
 

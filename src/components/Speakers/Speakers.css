@@ -8,7 +8,7 @@
 
 .section-title {
     margin: 0;
-    margin-top: 57px;
+    margin-top: 100px;
     margin-bottom: 26px;
     font-family: Constantia, Times, serif;
     font-style: normal;
@@ -65,6 +65,7 @@
 }
 
 .cards__title {
+    font-family: Constantia, Times, serif;
     line-height: 1.15;
     font-size: 24px;
     font-weight: 700;
@@ -77,6 +78,7 @@
 }
 
 .cards__stream {
+    font-family: Constantia, Times, serif;
     line-height: 23px;
     font-size: 18px;
     font-weight: bold;
@@ -89,6 +91,7 @@
 }
 
 .cards__description {
+    font-family: Constantia, Times, serif;
     line-height: 23px;
     font-size: 18px;
     font-weight: normal;
@@ -97,4 +100,110 @@
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+@media screen and (max-width: 426px) and (min-width: 320px) {
+    .speakers-section {
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f2f2f2;
+    }
+
+    .section-title {
+        margin: 0;
+        margin-top: 21px;
+        margin-bottom: 14px;
+        font-family: Constantia, Times, serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 47px;
+        line-height: 54px;
+        text-align: center;
+        color: #000000;
+    }
+
+    .section-subtitle {
+        margin: 0;
+        width: 320px;
+        max-width: 100%;
+        font-family: Constantia, Times, serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        color: #E31E25;
+    }
+
+    .cards {
+        margin: 0;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 31px;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 240px);
+        grid-row-gap: 5px;
+        justify-content: center;
+    }
+
+    .cards__item {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        width: 240px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards__image {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        padding: 0;
+        width: 130px;
+        border-radius: 50%;
+    }
+
+    .cards__title {
+        font-family: Constantia, Times, serif;
+        line-height: 1.15;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0;
+        margin: 0 auto;
+        margin-bottom: 5px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cards__stream {
+        font-family: Constantia, Times, serif;
+        line-height: 18px;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cards__description {
+        font-family: Constantia, Times, serif;
+        line-height: 23px;
+        font-size: 16px;
+        font-weight: normal;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import detskayaBiblioteka from './../../images/logos/oblstnaya_detskaya.svg';
+import vkontakte_icone from './../../images/icons8-vkontakte.svg';
 
 export default function Footer() {
   return (
@@ -23,19 +24,24 @@ export default function Footer() {
             I Сибирский детский культурный форум
           </h2>
           <nav className='footer__column-links'>
-            <a className='footer__column-link' href='/#'>
+            <a href='#about-forum' className='footer__column-link'>
               О форуме
             </a>
-            <a className='footer__column-link' href='/#'>
+            <a
+              href='/#'
+              download=''
+              title='Скачать программу Форума'
+              className='footer__column-link'
+            >
               Программа форума
             </a>
-            <a className='footer__column-link' href='/#'>
+            <a href='#speakers' className='footer__column-link'>
               Спикеры
             </a>
-            <a className='footer__column-link' href='/#'>
+            <a href='#streams' className='footer__column-link'>
               Направления
             </a>
-            <a className='footer__column-link' href='/#'>
+            <a href='#places' className='footer__column-link'>
               Карта площадок
             </a>
           </nav>
@@ -50,10 +56,10 @@ export default function Footer() {
           >
             <img
               className='footer__social-icon'
-              src='images/vk_color_white.svg'
+              src={vkontakte_icone}
               alt='Вконтакте'
             ></img>
-            Мы в Вконтакте
+            Вконтакте
           </a>
           <a
             className='footer__column-link'
