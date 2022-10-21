@@ -21,6 +21,11 @@
     align-items: center;
 }
 
+.resources__logo-list_org {
+    display: flex;
+    padding: 0;
+}
+
 
 .resources__logo-item {
     display: flex;
@@ -57,4 +62,28 @@
 .resources__logo:hover {
     opacity: 60%;
     transition: 1s;
+}
+
+@media screen and (max-width: 426px) and (min-width: 320px) {
+    .resources__logo-list {
+        margin: 0;
+        padding: 0;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        width: 1194px;
+        max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+        grid-template-rows: repeat(auto-fill, minmax(122px, 1fr));
+        gap: 70px;
+        row-gap: 0px;
+        justify-items: stretch;
+        align-items: center;
+    }
+
+    .resources__logo-list_org {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
 }

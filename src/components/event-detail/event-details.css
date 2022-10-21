@@ -3,10 +3,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../../images/page_decor_2.svg);
+    /* background-image: url(../../images/page_decor_2.svg);
     background-position-y: 0%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; */
     justify-content: center;
 }
 
@@ -283,6 +283,10 @@
         margin-bottom: 31px;
         width: 300px;
         max-width: 100%;
+    }
+
+    .details__reg-button {
+        margin-bottom: 30px;
     }
 
 }

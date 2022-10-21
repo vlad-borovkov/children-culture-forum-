@@ -26,6 +26,9 @@ export const organizationInfo = [
     logo: detskaya_oblastnaya,
     link: 'http://www.maxlib.ru/',
   },
+];
+
+export const partnersInfo = [
   {
     name: 'Новосибирский государственный университет архитектуры, дизайна и искусств',
     logo: ngaudi,
@@ -71,9 +74,6 @@ export const organizationInfo = [
     logo: centr_industriy,
     link: 'http://ckinsk.ru/',
   },
-];
-
-export const partnersInfo = [
   {
     name: 'НГПУ',
     logo: ngpu,

@@ -8,7 +8,7 @@ export default function Organization() {
   return (
     <section className='resources'>
       <h2 className='section-title'>Организаторы Форума</h2>
-      <ul className='resources__logo-list'>
+      <ul className='resources__logo-list_org'>
         {organizationInfo.map((item, index) => (
           <li className='resources__logo-item' key={index}>
             <a

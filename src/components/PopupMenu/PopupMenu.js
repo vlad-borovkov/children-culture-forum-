@@ -14,7 +14,12 @@ const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
       <div className='popup-menu__container'>
         <div className='popup-menu__menu'>
           <div className='popup-menu__links'>
-            <a href='http://www.maxlib.ru/' className='popup-menu__links-item'>
+            <a
+              href='https://forms.yandex.ru/u/634facfbc09c0219e67df41c/'
+              target='_blank'
+              rel='noreferrer'
+              className='popup-menu__links-item'
+            >
               Регистрация
             </a>
             <a href='#about-forum' className='popup-menu__links-item'>
@@ -30,9 +35,9 @@ const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
               Площадки
             </a>
             <a
-              href='/#'
-              download=''
-              title='Скачать программу Форума'
+              href='https://disk.yandex.ru/i/EzofRcJqLgXlZg'
+              target='_blank'
+              rel='noreferrer'
               className='popup-menu__links-item'
             >
               Программа

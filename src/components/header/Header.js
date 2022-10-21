@@ -79,10 +79,19 @@ function Header({ handleMenuClick }) {
         </div>
         <p className='header__date'>1-2 ноября</p>
         <p className='header__city'>Новосибирск</p>
-        <p className='headear__hashtag'>
-          #детскийфорум #культураСибири #детивкультуреСибири #делаемкультуру
-          #объединяеммир
-        </p>
+        <div className='headear__hashtag-set'>
+          <div className='headear__hashtag_first-line'>
+            <p className='headear__hashtag-item'>#детскийфорум</p>
+            <p className='headear__hashtag-item'>#культураСибири</p>
+          </div>
+          <div className='headear__hashtag_second-line'>
+            <p className='headear__hashtag-item'>#детивкультуреСибири</p>
+          </div>
+          <div className='headear__hashtag_third-line'>
+            <p className='headear__hashtag-item'>#делаемкультуру</p>
+            <p className='headear__hashtag-item'>#объединяеммир</p>
+          </div>
+        </div>
       </div>
     </header>
   );
