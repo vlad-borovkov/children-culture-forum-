@@ -1,7 +1,7 @@
 import React from 'react';
 import detskayaBiblioteka from './../../images/logos/oblstnaya_detskaya.svg';
 import vkontakte_icone from './../../images/icons8-vkontakte.svg';
-
+import mincult_1 from './../../images/logos/mincult_1.png';
 export default function Footer() {
   return (
     <footer className='footer'>
@@ -10,22 +10,27 @@ export default function Footer() {
           <div className='logo '>
             <img
               className='logo_place_footer'
+              src={mincult_1}
+              alt='Министерство культуры НСО'
+            ></img>
+            <img
+              className='logo_place_footer'
               src={detskayaBiblioteka}
-              alt='логотип'
+              alt='Новосибирская детская областная библиотека'
             ></img>
           </div>
           <p className='footer__author'>
-            &copy; 2022. Новосибирская детская областная библиотека & Vlad
-            webDesign
+            &copy; 2022. Новосибирская детская областная библиотека им. А. М.
+            Горького
           </p>
         </div>
         <div className='footer__column footer__column_content_info'>
           <h2 className='footer__column-heading'>
-            I Сибирский детский культурный форум
+            I Сибирский детский культурный Форум
           </h2>
           <nav className='footer__column-links'>
             <a href='#about-forum' className='footer__column-link'>
-              О форуме
+              О Форуме
             </a>
             <a
               href='/#'
@@ -33,7 +38,7 @@ export default function Footer() {
               title='Скачать программу Форума'
               className='footer__column-link'
             >
-              Программа форума
+              Программа Форума
             </a>
             <a href='#speakers' className='footer__column-link'>
               Спикеры
@@ -63,20 +68,15 @@ export default function Footer() {
           </a>
           <a
             className='footer__column-link'
-            href='/#'
+            href='mailto:proekt.nodb@yandex.ru'
             target='_blank'
             rel='noreferrer'
           >
-            example@mail.com
+            proekt.nodb@yandex.ru
           </a>
-          <a
-            className='footer__column-link'
-            href='/#'
-            target='_blank'
-            rel='noreferrer'
-          >
-            +7 999 999 999
-          </a>
+          <p className='footer__column-description'>
+            В теме письма укажите направление Форума
+          </p>
         </div>
       </div>
     </footer>

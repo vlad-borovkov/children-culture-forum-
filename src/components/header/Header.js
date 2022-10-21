@@ -25,15 +25,20 @@ function Header({ handleMenuClick }) {
               Площадки
             </a>
             <a
-              href='/#'
-              download=''
-              title='Скачать программу Форума'
+              href='https://disk.yandex.ru/i/EzofRcJqLgXlZg'
+              target='_blank'
+              rel='noreferrer'
               className='header__navlinks_item'
             >
               Программа
             </a>
           </ul>
-          <a href='http://www.maxlib.ru/' className='header__btn-reg_header'>
+          <a
+            href='https://forms.yandex.ru/u/634facfbc09c0219e67df41c/'
+            target='_blank'
+            rel='noreferrer'
+            className='header__btn-reg_header'
+          >
             Регистрация
           </a>
         </div>
@@ -60,10 +65,15 @@ function Header({ handleMenuClick }) {
         </p>
 
         <div className='header__btn-wrapper'>
-          <a href='http://www.maxlib.ru/' className='header__btn-details'>
+          <a href='#about-forum' className='header__btn-details'>
             Подробнее
           </a>
-          <a href='http://www.maxlib.ru/' className='header__btn-reg'>
+          <a
+            href='https://forms.yandex.ru/u/634facfbc09c0219e67df41c/'
+            target='_blank'
+            rel='noreferrer'
+            className='header__btn-reg'
+          >
             Регистрация
           </a>
         </div>
@@ -74,14 +84,6 @@ function Header({ handleMenuClick }) {
           #объединяеммир
         </p>
       </div>
-
-      {/* <div className='header__page-decor-wrap'>
-        <img
-          className='header__page-decor-image'
-          src={decor_page_1}
-          alt='декоративный элемент'
-        ></img>
-      </div> */}
     </header>
   );
 }

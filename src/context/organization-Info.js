@@ -11,7 +11,9 @@ import souz_hud from './../images/logos/souz_hud.jpg';
 import u from './../images/logos/u.jpg';
 import ngpu from './../images/logos/ngpu.jpg';
 import novat from './../images/logos/NOVAT.png';
-import RDSH from './../images/logos/RDSH.svg';
+import RDSH from './../images/logos/RDSH.jpg';
+import davinchi from './../images/logos/davinchi.jpg';
+import radio_most from './../images/logos/radio_most.png';
 
 export const organizationInfo = [
   {
@@ -24,9 +26,6 @@ export const organizationInfo = [
     logo: detskaya_oblastnaya,
     link: 'http://www.maxlib.ru/',
   },
-];
-
-export const partnersInfo = [
   {
     name: 'Новосибирский государственный университет архитектуры, дизайна и искусств',
     logo: ngaudi,
@@ -72,6 +71,9 @@ export const partnersInfo = [
     logo: centr_industriy,
     link: 'http://ckinsk.ru/',
   },
+];
+
+export const partnersInfo = [
   {
     name: 'НГПУ',
     logo: ngpu,
@@ -86,5 +88,15 @@ export const partnersInfo = [
     name: 'РДШ',
     logo: RDSH,
     link: 'https://рдш.рф/',
+  },
+  {
+    name: 'Дом да Винчи - Арт-платформа НГОНБ',
+    logo: davinchi,
+    link: 'https://vk.com/partofart_ngonb',
+  },
+  {
+    name: 'Радио-мост',
+    logo: radio_most,
+    link: 'https://радио-мост.рф',
   },
 ];

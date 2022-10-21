@@ -10,13 +10,6 @@ import Komanda from './../../images/numbers_page/Komanda.svg';
 function EventDetails() {
   return (
     <section id='about-forum' className='event-details'>
-      {/* <div className='event-details__decor-wrap'>
-        <img
-          className='event-details__decor-image'
-          src={page_decor_2}
-          alt='декоративный элемент'
-        ></img>
-      </div> */}
       <div className='details__numbers-wrapper'>
         <div className='details__numbers'>
           <div className='details__numbers_item'>
@@ -75,8 +68,8 @@ function EventDetails() {
             Делаем культуру &#8212; объединяем мир!
           </h2>
           <p className='details__lead'>
-            Форум станет местом встречи талантливых детей из всех регионов
-            Сибирского федерального округа
+            Форум станет местом встречи талантливых детей из регионов Сибирского
+            федерального округа и Новосибирской области
           </p>
           <p className='details__paragraph'>
             Это площадка для сотворчества, социального проектирования, поиска
@@ -85,7 +78,12 @@ function EventDetails() {
             силы в проектных командах, чтобы потом внести реальный вклад в
             развитие культурной жизни на своих территориях.
           </p>
-          <a href='http://www.maxlib.ru/' className='details__reg-button'>
+          <a
+            href='https://forms.yandex.ru/u/634facfbc09c0219e67df41c/'
+            target='_blank'
+            rel='noreferrer'
+            className='details__reg-button'
+          >
             Стать участником
           </a>
         </div>

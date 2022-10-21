@@ -7,7 +7,7 @@ export default function Speakers() {
       <h2 className='section-title'>Эксперты Форума</h2>
       <p className='section-subtitle'>
         Гостями и основными спикерами станут деятели культуры и искусства из
-        Москвы, Санкт-Петербурга, Новосибирска
+        Москвы и Новосибирска
       </p>
       <ul className='cards'>
         {speakersInfo.map((item, index) => (
@@ -18,7 +18,7 @@ export default function Speakers() {
               alt={item.name}
             ></img>
             <h3 className='cards__title'>{item.name}</h3>
-            <p className='cards__stream'>Направление: {item.stream}</p>
+            <p className='cards__stream'>{item.stream}</p>
             <p className='cards__description'>{item.about}</p>
           </li>
         ))}

@@ -14,17 +14,17 @@ export default function Map() {
           title='карта культурных событий'
           src='https://yandex.com/map-widget/v1/?um=constructor%3A672e880f14b73bf2035e0be0a86e37b3b5f05190a3bbdbb17fc34a27116f0c65&amp;source=constructor'
           width='601'
-          height='627'
-          frameborder='0'
+          height='672'
+          frameBorder='0'
         ></iframe>
         <ul className='map__legend'>
-          {adressForMap.map((item, index) => (
+          {adressForMap.map((item) => (
             <>
-              <p key={index} className='map__legend-title'>
+              <p key={item.id} className='map__legend-title'>
                 {item.stream}
               </p>
-              {item.places.map((item, index) => (
-                <li className='map__legend-place' key={index}>
+              {item.places.map((item) => (
+                <li key={item.id} className='map__legend-place'>
                   {item.name}
                 </li>
               ))}
@@ -37,7 +37,12 @@ export default function Map() {
           <p className='stream-button__slogan'>Нашёл своё? Регистрируйся!</p>
           <p className='stream-button__disclamer'>Места ограничены</p>
         </div>
-        <a href='http://www.maxlib.ru/' className='stream-button'>
+        <a
+          href='https://forms.yandex.ru/u/634facfbc09c0219e67df41c/'
+          target='_blank'
+          rel='noreferrer'
+          className='stream-button'
+        >
           Стать участником
         </a>
       </div>

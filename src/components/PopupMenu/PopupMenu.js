@@ -1,7 +1,7 @@
 import React from 'react';
+import vkontakte_icone from './../../images/icons8-vkontakte.svg';
 
 //import closeIcone from './../../images/menuCloseIcon.svg'
-import { Link } from 'react-router-dom';
 
 const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
   return (
@@ -14,21 +14,44 @@ const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
       <div className='popup-menu__container'>
         <div className='popup-menu__menu'>
           <div className='popup-menu__links'>
-            <p className='popup-menu__links-item'>О форуме</p>
-            <p className='popup-menu__links-item'>Направления</p>
-            <p className='popup-menu__links-item'>Спикеры</p>
-            <p className='popup-menu__links-item'>Площадки</p>
-            <p className='popup-menu__links-item'>Программа</p>
+            <a href='http://www.maxlib.ru/' className='popup-menu__links-item'>
+              Регистрация
+            </a>
+            <a href='#about-forum' className='popup-menu__links-item'>
+              О форуме
+            </a>
+            <a href='#speakers' className='popup-menu__links-item'>
+              Спикеры
+            </a>
+            <a href='#streams' className='popup-menu__links-item'>
+              Направления
+            </a>
+            <a href='#places' className='popup-menu__links-item'>
+              Площадки
+            </a>
+            <a
+              href='/#'
+              download=''
+              title='Скачать программу Форума'
+              className='popup-menu__links-item'
+            >
+              Программа
+            </a>
           </div>
 
-          <Link className='menu__account_btn' path='#'>
+          <a
+            className='footer__column-link footer__column-link_popup'
+            href='https://vk.com/public216364187'
+            target='_blank'
+            rel='noreferrer'
+          >
             <img
-              className='menu__account_btn_user-logo'
-              src=''
-              alt='кнопка аккаунта'
+              className='footer__social-icon'
+              src={vkontakte_icone}
+              alt='Вконтакте'
             ></img>
-            <p className='menu__account_btn_user-set'>Мы в соц. сетях</p>
-          </Link>
+            Вконтакте
+          </a>
         </div>
       </div>
     </div>
