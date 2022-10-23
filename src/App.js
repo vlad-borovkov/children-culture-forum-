@@ -1,7 +1,6 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
-
 import Header from './components/header/Header';
 import PopupMenu from './components/PopupMenu/PopupMenu';
 import EventDetails from './components/event-detail/EventDetails';

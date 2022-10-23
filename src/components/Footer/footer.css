@@ -161,12 +161,11 @@
 
     .logo_place_footer {
         margin: 0;
-        max-width: 163px;
+        max-width: 120px;
     }
 
     .footer__author {
         font-family: Constantia, Times, serif;
-        align-self: baseline;
         margin-top: 18px;
         margin-bottom: 18px;
         padding: 0;
@@ -176,7 +175,7 @@
         line-height: 20px;
         color: #000000;
         width: 350px;
-        max-width: 90%;
+        max-width: 100%;
         text-align: center;
     }
 
