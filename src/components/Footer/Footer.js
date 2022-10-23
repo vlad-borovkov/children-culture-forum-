@@ -33,9 +33,9 @@ export default function Footer() {
               О Форуме
             </a>
             <a
-              href='/#'
-              download=''
-              title='Скачать программу Форума'
+              href='https://disk.yandex.ru/i/EzofRcJqLgXlZg'
+              target='_blank'
+              rel='noreferrer'
               className='footer__column-link'
             >
               Программа Форума
