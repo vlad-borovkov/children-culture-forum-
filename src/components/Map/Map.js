@@ -14,7 +14,7 @@ export default function Map() {
           title='карта культурных событий'
           src='https://yandex.com/map-widget/v1/?um=constructor%3A672e880f14b73bf2035e0be0a86e37b3b5f05190a3bbdbb17fc34a27116f0c65&amp;source=constructor'
           width='601'
-          height='672'
+          height='737'
           frameBorder='0'
         ></iframe>
         <ul className='map__legend'>
@@ -25,7 +25,7 @@ export default function Map() {
               </p>
               {item.places.map((item) => (
                 <li key={item.id} className='map__legend-place'>
-                  {item.name}
+                  {item.name} &#8212; <i>{item.adress}</i>
                 </li>
               ))}
             </>

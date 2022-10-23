@@ -17,9 +17,19 @@ export default function Speakers() {
               src={item.image}
               alt={item.name}
             ></img>
-            <h3 className='cards__title'>{item.name}</h3>
-            <p className='cards__stream'>{item.stream}</p>
-            <p className='cards__description'>{item.about}</p>
+
+            <div className='card__description-wrap'>
+              <h3 className='cards__title'>{item.name}</h3>
+              <p className='cards__description'>
+                {item.about}
+                <p className='cards__stream'>{item.stream}</p>
+                <p className='cards__city'>{item.city}</p>
+              </p>
+            </div>
+            {/* <div className='card__city-wrap'>
+              <p className='cards__stream'>{item.stream}</p>
+              <p className='cards__city'>{item.city}</p>
+            </div> */}
           </li>
         ))}
       </ul>

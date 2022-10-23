@@ -14,7 +14,8 @@ export default function Stream() {
       <section id='streams' className='stream-section'>
         <h2 className='section-title'>Направления Форума</h2>
         <p className='section-subtitle'>
-          Найди своё и прими в нём участие. Места ограничены
+          Найди своё и прими в нём участие. <br />
+          Места ограничены
         </p>
         <ul className='stream-list'>
           <StreamItem
