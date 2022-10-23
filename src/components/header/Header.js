@@ -1,9 +1,7 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logoPath from './../../images/LOGO.svg';
 import menuBtn from './../../images/sandwitchMenu.svg';
 import header_decor_1 from './../../images/header_decor_1.svg';
-import decor_page_1 from './../../images/page_decor_1.svg';
 
 function Header({ handleMenuClick }) {
   return (

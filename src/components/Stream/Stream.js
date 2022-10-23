@@ -6,7 +6,6 @@ import Teatre from '../../images/stream_logo/Teatre.svg';
 import Art from '../../images/stream_logo/Art.svg';
 import Museum from '../../images/stream_logo/Museum.svg';
 import Animation from '../../images/stream_logo/Animation.svg';
-import Laboratory from '../../images/stream_logo/Laboratory.svg';
 
 export default function Stream() {
   return (

@@ -1,7 +1,4 @@
 import React from 'react';
-import pointPath from './../../images/point_sample.svg';
-import { Link } from 'react-router-dom';
-import page_decor_2 from './../../images/page_decor_2.svg';
 import Group from './../../images/numbers_page/Group.svg';
 import Expert from './../../images/numbers_page/Expert.svg';
 import Kalendar from './../../images/numbers_page/Kalendar.svg';

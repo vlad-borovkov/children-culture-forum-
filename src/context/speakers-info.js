@@ -1,7 +1,6 @@
 import Charchenko from '../images/speakers/Elizaveta_Charchenko.svg';
 import Nechiporenko from '../images/speakers/Yuriy_Nechiporenko.svg';
 import Tyrkova from '../images/speakers/Evgeniya_Tyrkova.svg';
-import Default from '../images/speakers/Default_person.svg';
 import Mihail_Parshikovimport from '../images/speakers/Mihail_Parshikov.svg';
 import Marta_Yaralova from '../images/speakers/Marta_Yaralova.svg';
 import Sophya_Hodarina from '../images/speakers/Sophya_Hodarina.svg';
