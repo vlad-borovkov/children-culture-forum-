@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
+
 import { Helmet } from 'react-helmet';
 import Header from './components/header/Header';
 import PopupMenu from './components/PopupMenu/PopupMenu';
@@ -20,28 +20,23 @@ function App() {
     setOpenMenu(false);
   }
   return (
-    <BrowserRouter>
-      <div className='page'>
-        <Helmet>
-          <meta charSet='utf-8' />
-          <title>Дети в культуре Сибири</title>
-          <link rel='canonical' href='http://детивкультуресибири.рф' />
-          <meta
-            name='description'
-            content='Детский культурный форум в Сибири'
-          />
-        </Helmet>
-        <Header handleMenuClick={handleMenuClick} />
+    <div className='page'>
+      <Helmet>
+        <meta charSet='utf-8' />
+        <title>Дети в культуре Сибири</title>
+        <link rel='canonical' href='http://детивкультуресибири.рф' />
+        <meta name='description' content='Детский культурный форум в Сибири' />
+      </Helmet>
+      <Header handleMenuClick={handleMenuClick} />
 
-        <EventDetails />
-        <Speakers />
-        <Stream />
-        <Map />
-        <Organization />
-        <Footer />
-        <PopupMenu handleCloseMenu={closeAllPopups} isOpenMenu={isOpenMenu} />
-      </div>
-    </BrowserRouter>
+      <EventDetails />
+      <Speakers />
+      <Stream />
+      <Map />
+      <Organization />
+      <Footer />
+      <PopupMenu handleCloseMenu={closeAllPopups} isOpenMenu={isOpenMenu} />
+    </div>
   );
 }
 

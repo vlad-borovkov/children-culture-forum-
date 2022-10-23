@@ -121,7 +121,7 @@
         padding: 0;
         background-color: #F4F4F4;
         justify-content: center;
-        background-image: url(http://localhost:3000/static/media/footer__decor.aadaf3f8fd6c8510aeae.svg);
+        background-image: url(../../images/footer__decor.svg);
         background-repeat: no-repeat;
         background-position-y: bottom;
         background-size: contain;

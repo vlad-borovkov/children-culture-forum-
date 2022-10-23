@@ -1,8 +1,6 @@
 import React from 'react';
 import vkontakte_icone from './../../images/icons8-vkontakte.svg';
 
-//import closeIcone from './../../images/menuCloseIcon.svg'
-
 const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
   return (
     <div className={`popup ${isOpenMenu ? 'popup_on' : ''}`}>
@@ -19,19 +17,36 @@ const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
               target='_blank'
               rel='noreferrer'
               className='popup-menu__links-item'
+              onClick={handleCloseMenu}
             >
               Регистрация
             </a>
-            <a href='#about-forum' className='popup-menu__links-item'>
+            <a
+              href='#about-forum'
+              className='popup-menu__links-item'
+              onClick={handleCloseMenu}
+            >
               О форуме
             </a>
-            <a href='#speakers' className='popup-menu__links-item'>
+            <a
+              href='#speakers'
+              className='popup-menu__links-item'
+              onClick={handleCloseMenu}
+            >
               Спикеры
             </a>
-            <a href='#streams' className='popup-menu__links-item'>
+            <a
+              href='#streams'
+              className='popup-menu__links-item'
+              onClick={handleCloseMenu}
+            >
               Направления
             </a>
-            <a href='#places' className='popup-menu__links-item'>
+            <a
+              href='#places'
+              className='popup-menu__links-item'
+              onClick={handleCloseMenu}
+            >
               Площадки
             </a>
             <a
@@ -39,6 +54,7 @@ const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
               target='_blank'
               rel='noreferrer'
               className='popup-menu__links-item'
+              onClick={handleCloseMenu}
             >
               Программа
             </a>
@@ -49,6 +65,7 @@ const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
             href='https://vk.com/public216364187'
             target='_blank'
             rel='noreferrer'
+            onClick={handleCloseMenu}
           >
             <img
               className='footer__social-icon'

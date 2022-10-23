@@ -187,6 +187,10 @@
         justify-content: space-around;
     }
 
+    .details__numbers_item:first-of-type {
+        margin-top: 40px;
+    }
+
     .details__numbers_item {
         display: flex;
         flex-direction: column;
