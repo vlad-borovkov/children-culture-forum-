@@ -22,6 +22,15 @@ const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
               Регистрация
             </a>
             <a
+              href='https://disk.yandex.ru/i/EzofRcJqLgXlZg'
+              target='_blank'
+              rel='noreferrer'
+              className='popup-menu__links-item'
+              onClick={handleCloseMenu}
+            >
+              Программа
+            </a>
+            <a
               href='#about-forum'
               className='popup-menu__links-item'
               onClick={handleCloseMenu}
@@ -47,16 +56,7 @@ const PopupMenu = ({ isOpenMenu, handleCloseMenu }) => {
               className='popup-menu__links-item'
               onClick={handleCloseMenu}
             >
-              Площадки
-            </a>
-            <a
-              href='https://disk.yandex.ru/i/EzofRcJqLgXlZg'
-              target='_blank'
-              rel='noreferrer'
-              className='popup-menu__links-item'
-              onClick={handleCloseMenu}
-            >
-              Программа
+              Карта
             </a>
           </div>
 

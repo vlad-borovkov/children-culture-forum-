@@ -32,9 +32,12 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      ">0.3%, last 2 chrome version, not dead",
+      ">0.3%, last 2 firefox version, not dead",
+      ">0.3%, last 2 safari version, not dead",
+      ">0.3%, last 2 opera version, not dead",
+      ">0.3%, last 2 edge version, not dead",
+      ">0.3%, last 2 ie version, not dead"
     ]
   }
 }

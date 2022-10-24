@@ -63,7 +63,12 @@ function Header({ handleMenuClick }) {
         </p>
 
         <div className='header__btn-wrapper'>
-          <a href='#about-forum' className='header__btn-details'>
+          <a
+            href='https://disk.yandex.ru/i/EzofRcJqLgXlZg'
+            target='_blank'
+            rel='noreferrer'
+            className='header__btn-details'
+          >
             Подробнее
           </a>
           <a
