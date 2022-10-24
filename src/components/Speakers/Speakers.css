@@ -142,7 +142,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 1100px) and (min-width: 426px) {
+@media screen and (max-width: 1100px) and (min-width: 901px) {
     .cards {
         margin: 0;
         padding: 0;
@@ -164,31 +164,33 @@
     }
 }
 
-@media screen and (max-width: 900px) and (min-width: 426px) {
+@media screen and (max-width: 900px) and (min-width: 430px) {
     .cards {
         margin: 0;
         padding: 0;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 60px;
-        margin-bottom: 60px;
-        width: 689px;
-        display: grid;
-        grid-template-columns: repeat(2, 325px);
-        grid-row-gap: 60px;
-        grid-column-gap: 5px;
-        justify-content: space-between;
+        margin-top: 31px;
         max-width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 310px);
+        grid-row-gap: 10px;
+        justify-content: center;
+        margin-bottom: 40px;
     }
 
     .cards__item {
-        width: 325px;
+        list-style-type: none;
+        margin: 0;
+        display: flex;
+        width: 310px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
 
 
-@media screen and (max-width: 426px) and (min-width: 320px) {
+@media screen and (max-width: 430px) and (min-width: 320px) {
     .speakers-section {
         min-height: 90vh;
         display: flex;
