@@ -2,6 +2,7 @@ import React from 'react';
 import logoPath from './../../images/LOGO.svg';
 import menuBtn from './../../images/sandwitchMenu.svg';
 import header_decor_1 from './../../images/header_decor_1.svg';
+import page_decor_1 from './../../images/page_decor_1.svg';
 
 function Header({ handleMenuClick }) {
   return (
@@ -95,6 +96,13 @@ function Header({ handleMenuClick }) {
             <p className='headear__hashtag-item'>#объединяеммир</p>
           </div>
         </div>
+      </div>
+      <div className='decor-image-wrap'>
+        <img
+          src={page_decor_1}
+          alt='декоративный элемент'
+          className='decor-image'
+        ></img>
       </div>
     </header>
   );
