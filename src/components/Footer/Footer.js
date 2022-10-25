@@ -20,8 +20,9 @@ export default function Footer() {
             ></img>
           </div>
           <p className='footer__author'>
-            &copy; 2022. Новосибирская детская областная библиотека им. А. М.
-            Горького
+            &copy; 2022. Государственное бюджетное учреждение культуры
+            Новосибирской области «Областная детская библиотека им. А. М.
+            Горького»
           </p>
         </div>
         <div className='footer__column footer__column_content_info'>
